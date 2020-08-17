@@ -1,0 +1,68 @@
+body {
+  background-color: #e9e4f0;
+
+  font-family: Georgia;
+}
+#title {
+  font-size: 39px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+#image {
+  position: relative;
+  display:block;
+  top: 50px;
+  width: 90%;
+  border-radius: 2px;
+  height: auto;
+  min-width: 200px;
+  min-height: 200px;
+  max-height: 1240px;
+  max-width: 1400px;
+
+}
+#img-caption {
+  position: relative;
+  top: 80px;
+  text-align: center;
+  display: block;
+  font-size: 15px;
+}
+#tribute-info {
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 60px;
+  min-width: 200px;
+  min-height: 200px;
+  max-height: 1240px;
+  max-width: 1400px;
+}
+#headline {
+  position: relative;
+  top: 50px;
+  /*	margin-left:160px; 
+*/
+  margin-bottom: 60px;
+  text-align: center;
+}
+#see {
+  font-size: 11px;
+}
+#list {
+  /*align-content: center;*/
+  display: block;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.9;
+  white-space: 10px;
+  list-style-type: disc;
+  min-height: 100px;
+
+  /*	width: 450px;
+*/ /*min-width: 100px;
+	max-height: 1240px*/
+  max-width: 550px;
+  text-align: justify;
+}
